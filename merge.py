@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Load the two Excel files
-file1 = 'cn.xlsx'
-file2 = 'cd.xlsx'
+file1 = 'cnfile.xlsx'
+file2 = 'cdfile.xlsx'
 
 # Read the Excel files into DataFrames
 df1 = pd.read_excel(file1)
