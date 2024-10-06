@@ -32,7 +32,7 @@ def scrape_multiple_pages(base_url, start_page, end_page, output_file):
     df.to_excel(output_file, index=False)
 
 # Example usage
-base_url = 'https://www.odoo.com/partners/country/canada-36'  # Replace with the actual base URL of the website
+base_url = 'https://www.example.com'  # Replace with the actual base URL of the website
 start_page = 1  # Starting page number
 end_page = 5  # Ending page number
 output_file = 'output.xlsx'  # Output file name
