@@ -12,7 +12,7 @@ def extract_urls_with_prefix(url):
     for tag in a_tags:
         href = tag.get('href')
         if href:
-            urls.append(f'https://www.odoo.com{href}')
+            urls.append(f'https://www.example.com{href}')
     return urls
 
 # Function to extract contact details from a given URL
@@ -48,7 +48,7 @@ def scrape_all_pages(base_url, start_page, end_page, output_file):
     df.to_excel(output_file, index=False)
 
 # Example usage
-base_url = 'https://www.odoo.com/partners/country/united-states-224'  # Replace with the base URL of the website
+base_url = 'https://www.example.com'  # Replace with the base URL of the website
 start_page = 1  # Starting page number
 end_page = 11  # Ending page number
 output_file = 'output.xlsx'  # Output file name
